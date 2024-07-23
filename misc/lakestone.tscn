@@ -1,0 +1,71 @@
+[gd_scene load_steps=11 format=3 uid="uid://vccq7p8035ti"]
+
+[ext_resource type="Texture2D" uid="uid://cj0v20lm784xe" path="res://addons/Tiny Swords (Update 010)/Terrain/Water/Rocks/Rocks_04.png" id="1_ee5xb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v0bqx"]
+atlas = ExtResource("1_ee5xb")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_33gmr"]
+atlas = ExtResource("1_ee5xb")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hm1di"]
+atlas = ExtResource("1_ee5xb")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xcbx3"]
+atlas = ExtResource("1_ee5xb")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x1wbc"]
+atlas = ExtResource("1_ee5xb")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7vdc8"]
+atlas = ExtResource("1_ee5xb")
+region = Rect2(640, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s534d"]
+atlas = ExtResource("1_ee5xb")
+region = Rect2(768, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_grcf1"]
+atlas = ExtResource("1_ee5xb")
+region = Rect2(896, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fve3b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v0bqx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_33gmr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hm1di")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xcbx3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x1wbc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7vdc8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s534d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_grcf1")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Lakestone" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_fve3b")
+frame_progress = 0.747806
