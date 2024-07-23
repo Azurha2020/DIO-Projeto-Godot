@@ -1,8 +1,8 @@
-#Knight Survivor
+# Knight Survivor
 Apresentando meu projeto desenvolvido com as instrações do instrutor durante o bootcamp de jogos em godot da DIO.
 
 
-##Features Apresentadas
+## Features Apresentadas
 4 tipos de inimigos
 Cura atraveis da coleta de itens
 Drop aleatorio de itens
@@ -11,4 +11,4 @@ Waves de mobs
 Reinicio automático
 
 
-##Projeto por: Roberto Jurity Santos
+## Projeto por: Roberto Jurity Santos
